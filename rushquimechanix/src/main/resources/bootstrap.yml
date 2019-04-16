@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: rushquimechanix #must map directly to the name of the directory within your Spring Cloud configuration server
+  profiles:
+    active: default
+  cloud:
+    config:
+      uri: http://localhost:8888
