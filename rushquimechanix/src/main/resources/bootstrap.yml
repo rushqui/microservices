@@ -1,8 +1,8 @@
 spring:
   application:
-    name: rushquimechanix #must map directly to the name of the directory within your Spring Cloud configuration server
+    name: licensingservice  #must map directly to the name of the directory within your Spring Cloud configuration server
   profiles:
-    active: default
+    active: default # A profile is a mechanism to differentiate the configuration data consumed by the Spring Boot application.
   cloud:
     config:
       uri: http://localhost:8888
