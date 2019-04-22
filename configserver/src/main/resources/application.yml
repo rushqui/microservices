@@ -7,6 +7,6 @@ spring:
     config:
       server:
         native:
-            searchLocations: file:///D:/Java projects/Git repositories\microservices\configserver\src\main\resources\config\licensingservice
-#           macOS: Users/elias_rojas/eclipse-workspace/configserver/src/main/resources/config/licensingservice
+            searchLocations: file:///Users/elias_rojas/develop/microservices/configserver/src/main/resources/config/licensingservice           
+#           macOS: Users/elias_rojas/develop/microservices/configserver/src/main/resources/config/licensingservice
 #           workPC: D:\Java projects\Git repositories\microservices\configserver\src\main\resources\config\licensingservice
