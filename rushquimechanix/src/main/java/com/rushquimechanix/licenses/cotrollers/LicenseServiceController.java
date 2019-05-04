@@ -16,7 +16,7 @@ import com.rushquimechanix.model.License;
 import org.springframework.http.HttpStatus;
 
 @RestController
-@RequestMapping(value="/v1/organizations/{organizationId}/licenses")
+@RequestMapping(value="/v1/organizations/licenses")
 public class LicenseServiceController {
 	
 	@Autowired

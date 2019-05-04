@@ -5,4 +5,4 @@ spring:
     active: default # A profile is a mechanism to differentiate the configuration data consumed by the Spring Boot application.
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://localhost:8889
