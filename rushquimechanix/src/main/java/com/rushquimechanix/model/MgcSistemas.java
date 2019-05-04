@@ -15,5 +15,21 @@ public class MgcSistemas implements Serializable {
     private Long idSistema;
 
     private String nombre;
+    
 
+    public Long getIdSistema() {
+        return idSistema;
+    }
+
+    public void setIdSistema(Long idSistema) {
+        this.idSistema = idSistema;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
